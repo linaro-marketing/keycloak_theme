@@ -606,13 +606,37 @@ div#block_row {
     box-shadow: none;
     color: #78ac00;
     font-weight: bolder;
+    padding-left:0px;
+    margin-left:0px;
+    padding: 0px;
+    margin-bottom:15px;
 }
 #wrapper .block a.btn.btn-primary.btn-lg:hover {
-    background-color: #292929;
+    background-color: white;
     box-shadow: none;
-    color: #ffffff;
+    color: #3c3b39;
     font-weight: bolder;
     top:0px;
     transform: none;
     transition: 0ms all ease;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgb(120, 172, 0);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(120, 172, 0);
+  outline: 0 none;
 }
