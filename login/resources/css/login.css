@@ -478,60 +478,6 @@ a.zocial  {
         text-align: left;
     }
 }
-
-.navbar-toggle {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.navbar-toggle {
-	border: none;
-	background: transparent !important;
-}
-.navbar-toggle:hover {
-	background: transparent !important;
-}
-.navbar-toggle .icon-bar {
-	width: 22px;
-	-webkit-transition: all 0.2s;
-	transition: all 0.2s;
-}
-/* ANIMATED X */
-.navbar-toggle.x .icon-bar:nth-of-type(2) {
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-	-webkit-transform-origin: 10% 10%;
-	-ms-transform-origin: 10% 10%;
-	transform-origin: 10% 10%;
-}
-.navbar-toggle.x .icon-bar:nth-of-type(3) {
-	opacity: 0;
-	filter: alpha(opacity=0);
-}
-.navbar-toggle.x .icon-bar:nth-of-type(4) {
-	-webkit-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	-webkit-transform-origin: 10% 90%;
-	-ms-transform-origin: 10% 90%;
-	transform-origin: 10% 90%;
-}
-/* ANIMATED X COLLAPSED */
-.navbar-toggle.x.collapsed .icon-bar:nth-of-type(2) {
-	-webkit-transform: rotate(0);
-	-ms-transform: rotate(0);
-	transform: rotate(0);
-}
-.navbar-toggle.x.collapsed .icon-bar:nth-of-type(3) {
-	opacity: 1;
-	filter: alpha(opacity=100);
-}
-.navbar-toggle.x.collapsed .icon-bar:nth-of-type(4) {
-	-webkit-transform: rotate(0);
-	-ms-transform: rotate(0);
-	transform: rotate(0);
-}
-/* END ANIMATED X */
 .btn.btn-primary {
     background-color:#79ac00;
     background-image: none;
@@ -541,18 +487,13 @@ a.zocial  {
     border-radius: 2px;
 }
 a.btn.btn-primary {
-    background-color:#79ac00;
+    background-color:#fff;
 }
 a.btn.btn-primary:hover {
     background-color:#3c3b39;
 }
 .btn.btn-primary:hover {
-    background-image: none;
-    border:#7a7a7a;
     color: white;
-    -webkit-box-shadow: 0px 0px 35px -4px rgba(0,0,0,0.85);
-    -moz-box-shadow: 0px 0px 35px -4px rgba(0,0,0,0.85);
-    box-shadow: 0px 0px 35px -4px rgba(0,0,0,0.85);
 }
 .btn.btn-primary:active {
     background-color:#79ac00;
@@ -658,4 +599,20 @@ div#block_row {
 }
 #kc-form a:hover {
     color: #78ac00;
+}
+
+#wrapper .block a.btn.btn-primary.btn-lg {
+    background-color: white;
+    box-shadow: none;
+    color: #78ac00;
+    font-weight: bolder;
+}
+#wrapper .block a.btn.btn-primary.btn-lg:hover {
+    background-color: #292929;
+    box-shadow: none;
+    color: #ffffff;
+    font-weight: bolder;
+    top:0px;
+    transform: none;
+    transition: 0ms all ease;
 }
