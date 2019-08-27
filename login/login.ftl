@@ -8,18 +8,15 @@
         <#if realm.password>
             <form id="kc-form-login" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
                 <div class="${properties.kcFormGroupClass!}">
-                    <label for="username" class="${properties.kcLabelClass!}"><#if !realm.loginWithEmailAllowed>${msg("username")}<#elseif !realm.registrationEmailAsUsername>${msg("usernameOrEmail")}<#else>${msg("email")}</#if></label>
-
                     <#if usernameEditDisabled??>
-                        <input tabindex="1" id="username" placeholder="Your Linaro Login ${msg("usernameOrEmail")}" class="${properties.kcInputClass!}" name="username" value="${(login.username!'')}" type="text" disabled />
+                        <input tabindex="1" id="username" placeholder="${msg("usernameOrEmail")}" class="${properties.kcInputClass!}" name="username" value="${(login.username!'')}" type="text" disabled />
                     <#else>
-                        <input tabindex="1" id="username" placeholder="Your Linaro Login ${msg("usernameOrEmail")}" class="${properties.kcInputClass!}" name="username" value="${(login.username!'')}"  type="text" autofocus autocomplete="off" />
+                        <input tabindex="1" id="username" placeholder="${msg("usernameOrEmail")}" class="${properties.kcInputClass!}" name="username" value="${(login.username!'')}"  type="text" autofocus autocomplete="off" />
                     </#if>
                 </div>
 
                 <div class="${properties.kcFormGroupClass!}">
-                    <label for="password" class="${properties.kcLabelClass!}">${msg("password")}</label>
-                    <input tabindex="2" id="password" placeholder="Your Linaro Login ${msg("password")}" class="${properties.kcInputClass!}" name="password" type="password" autocomplete="off" />
+                    <input tabindex="2" id="password" placeholder="${msg("password")}" class="${properties.kcInputClass!}" name="password" type="password" autocomplete="off" />
                 </div>
 
                 <div class="${properties.kcFormGroupClass!} ${properties.kcFormSettingClass!}">
@@ -45,9 +42,9 @@
                   </div>
 
                   <div id="kc-form-buttons" class="${properties.kcFormGroupClass!}">
-                    <input tabindex="4" class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" name="login" id="kc-login" type="submit" value="Log In"/>
+                    <input tabindex="4" class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" name="login" id="kc-login" type="submit" value="Log in"/>
                   </div>
-                  <a href="${properties.forgottenPasswordUrl!}" target="_blank">Forgot your login credentials?</a>
+                  <a href="${properties.forgottenPasswordUrl!}" target="_blank">Forgot your password?</a>
             </form>
         </#if>
         </div>

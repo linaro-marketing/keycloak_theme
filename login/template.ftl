@@ -105,14 +105,14 @@
                         <div class="block">
                             <h3>Need an account?</h3>
                              <p>
-                                If you are an employee of a Linaro member company you can submit a request for a new account to be created for you.
+                                If you are an employee of a Linaro member company, you can submit a request for a new account to be created for you.
                             </p>
                             <a href="https://servicedesk.linaro.org/servicedesk/customer/portal/3/create/120" class="btn btn-primary btn-lg">Request an account <i class="pficon-user"></i></a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <div class="block">
-                            <h3>Get Help</h3>
+                            <h3>Get help</h3>
                              <p>
                                 If you have questions, please raise a support ticket on Linaro's Service Desk.
                             </p>
@@ -123,7 +123,7 @@
                         <div class="block">
                             <h3>About Linaro</h3>
                             <p>
-                                If you are new to Linaro, register now for access to product evaluations and purchasing capabilities.
+                                Want to find out more about Linaro? Visit our website by clicking the link below.
                             </p>
                             <a href="https://www.linaro.org/about/" class="btn btn-primary btn-lg">About Us <i class="pficon-info"></i></a>
                         </div>
